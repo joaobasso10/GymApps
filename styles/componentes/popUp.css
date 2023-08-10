@@ -1,0 +1,55 @@
+.popUpFoto{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000020;
+    backdrop-filter: blur( 4px );
+}
+.popUpFoto i{
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+.popUpFoto h2{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border: 2px solid #b9b9b9;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.trocaImage{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #00000020;
+    backdrop-filter: blur( 4px );
+}
+.trocaImage i{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.trocaImage h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border: 2px solid #b9b9b9;
+    border-radius: 10px;
+    margin-top: 20px;
+}

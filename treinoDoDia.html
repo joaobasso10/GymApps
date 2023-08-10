@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="assets/logoGym.png">
+    <link rel="stylesheet" href="styles/treinoDoDia.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteudo">
+        <nav>
+            <img id="logo" src="assets/logoGym.png" alt="Logo" width="50">
+            <img id="perfil" src="assets/perfil.png" alt="foto" width="50">
+        </nav>
+        <div class="cabecalho">
+            <h1>Treino de hoje</h1>
+        </div>
+        <div class="notifications">
+            <i class="fas fa-info-circle"></i>
+            <h3> • Lembre sempre de fazer uma pausa de pelo menos 1 minuto entre as repetições,
+                caso nescessite descanse mais. <br>
+
+                • As series são de 4 x 8/12. </h3>
+        </div>
+        <div class="card segunda">
+            <div class="titulo">
+                <h1 id="diaDaSemanaTitulo"></h1>
+            </div>
+            <div id="lista" class="lista">
+                
+            </div>
+        </div>
+        
+
+        <div id="popUpFoto" class="popUpFoto">
+            <i id="close" class="fas fa-times"></i>
+            <img src="assets/perfil.png" alt="" width="300">
+            <h2 id="troca" >Trocar Imagem</h2>
+        </div>
+        <div id="trocaImage" class="trocaImage">
+            <i id="closeTroca" class="fas fa-times"></i>
+            <h2>Essa foto esta linda, <br> então você não pode trocar ela! <br> Te amo ❤️</h2>
+        </div>
+        
+    </div>
+    <script src="script/treinoDoDia.js"></script>
+    <script src="https://kit.fontawesome.com/89d15183ab.js" crossorigin="anonymous"></script>
+</body>
+</html>
