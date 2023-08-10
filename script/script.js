@@ -2,7 +2,7 @@
 const logo = document.getElementById("logo");
 
 logo.addEventListener("click", ()=>{
-    window.location.href = "/Gym/index.html";
+    window.location.href = "/index.html";
 })
 /////////////////////////////////////////////
 
@@ -12,10 +12,10 @@ const cardTreinoDoDia = document.getElementById("cardTreinoDoDia");
 const cardSemanas = document.getElementById("cardSemanas");
 
 cardTreinoDoDia.addEventListener("click", ()=>{
-    window.location.href = "/Gym/treinoDoDia.html";
+    window.location.href = "/treinoDoDia.html";
 })
 cardSemanas.addEventListener("click", ()=>{
-    window.location.href = "/Gym/semanas.html";
+    window.location.href = "/semanas.html";
 })
 ///////////////////////////////////////////////////////////
 
