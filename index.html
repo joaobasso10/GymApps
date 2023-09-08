@@ -4,48 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="assets/logoGym.png">
-    <link rel="stylesheet" href="styles/style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles/login.css">
+    <title>Login</title>
 </head>
 <body>
     <div class="conteudo">
-        <nav>
-            <img id="logo" src="assets/logoGym.png" alt="Logo" width="50">
-            <img id="perfil" src="assets/perfil.png" alt="foto" width="50">
-        </nav>
-        <div class="cabecalho">
-            <h3>Seja bem-vinda,</h3>
-            <h1>Maria Alice Matzke</h1>
+        <div class="titulo">
+            <img src="assets/logoGym.png" alt="" width="100">
+            <h1>Seja bem-vindo(a)!</h1>
+            <h2>Coloque seu usuário e senha <br>
+                 para começar seu treino!</h2>
         </div>
-        <div class="notifications">
-            <i class="fas fa-info-circle"></i>
-            <h3> • "Apaixone-se pelo processo de se tornar a sua melhor versão." <br> <br>
-                • Bom treino meu amor, qualquer dúvida me chame!
-            </h3>
-        </div>
-        <div id="cardTreinoDoDia" class="cardTreinoDoDia">
-            <h2>Treino do dia</h2>
-            <h3>Veja o seu treino de hoje!</h3>
-        </div>
-        <div id="cardSemanas" class="cardSemanas">
-            <h2>Treinos da semana</h2>
-            <h3>Veja os treinos da semana toda!</h3>
-        </div>
-
-
-        <div id="popUpFoto" class="popUpFoto">
-            <i id="close" class="fas fa-times"></i>
-            <img src="assets/perfil.png" alt="" width="300">
-            <h2 id="troca" >Trocar Imagem</h2>
-        </div>
-        <div id="trocaImage" class="trocaImage">
-            <i id="closeTroca" class="fas fa-times"></i>
-            <h2>Essa foto esta linda, <br> então você não pode trocar ela! <br> Te amo ❤️</h2>
-        </div>
-        
+        <form>
+            <label>
+                <h3>Login</h3>
+                <input id="login" type="text" placeholder="Login">
+            </label>
+            <label>
+                <h3>Senha</h3>
+                <input id="senha" type="password" placeholder="Senha">
+            </label>
+            <span id="span"></span>
+            <h4 id="botao">teste</h4>
+        </form>
     </div>
-
-    <script src="script/script.js"></script>
+    <script src="script/login.js"></script>
     <script src="https://kit.fontawesome.com/89d15183ab.js" crossorigin="anonymous"></script>
 </body>
 </html>
