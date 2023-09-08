@@ -3,8 +3,8 @@ const senha = document.getElementById("senha");
 const botao = document.getElementById("botao");
 const span = document.getElementById("span");
 
-const loginName = "joao";
-const senhaValue = 1234;
+const loginName = "malice";
+const senhaValue = "Batman123";
 
 botao.addEventListener("click", ()=>{
     if(login.value = loginName && senha.value == senhaValue){
